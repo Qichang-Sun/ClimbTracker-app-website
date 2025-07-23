@@ -163,6 +163,46 @@ section h2 {
   font-weight: 700;
 }
 
+/* Instructions Section */
+.instructions h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.instruction-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .instruction-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.instruction-item {
+  background-color: #fdfdfd;
+  padding: 1.5rem;
+  border-radius: 10px;
+  border: 1px solid #f0f0f0;
+}
+
+.instruction-item h3 {
+  font-size: 1.4rem;
+  color: #e67e22;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.instruction-item p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #555;
+  margin: 0;
+}
+
 /* Download Section */
 .download {
   text-align: center;
