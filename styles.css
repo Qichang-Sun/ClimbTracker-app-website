@@ -231,6 +231,17 @@ section h2 {
   font-size: 0.9rem;
 }
 
+#download-counter {
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    color: #555;
+}
+
+#download-count {
+    font-weight: bold;
+    color: #27ae60;
+}
+
 /* Footer */
 footer {
   text-align: center;
