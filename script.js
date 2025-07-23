@@ -55,8 +55,17 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Add event listener to the download button
   if (downloadButton) {
-    downloadButton.addEventListener('click', () => {
-        incrementDownloadCount();
+    downloadButton.addEventListener('click', (e) => {
+      // Prevent the default link behavior to ensure the script runs
+      e.preventDefault();
+      
+      // Increment the count via the API
+      incrementDownloadCount();
+
+      // Redirect to the download link after a short delay to allow the API call to complete
+      setTimeout(() => {
+        window.location.href = downloadButton.href;
+      }, 300);
     });
   }
 
