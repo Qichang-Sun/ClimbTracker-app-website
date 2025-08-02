@@ -43,7 +43,7 @@ The app is built around three main functionalities:
 ## 🚀 Download
 
 You can download the latest APK directly from the website or from this repository:
-[**Download app-release.apk**](app/app-release.apk)
+[**Download app-release.apk**](app/app-release-1.1.1.apk)
 
 ## 💻 Local Development
 
